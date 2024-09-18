@@ -1,11 +1,11 @@
 # index.js
-Goat.newVersionDetected=Kamu menggunakan versi %1, versi terbaru adalah %2. harap perbarui untuk menggunakan Itsuki lebih baik!
-Goat.autoRestart1=Itsuki akan dimulai ulang secara otomatis dalam %1
-Goat.autoRestart2=Itsuki akan dimulai ulang secara otomatis dengan tugas cron: %1
+Goat.newVersionDetected=Kamu menggunakan versi %1, versi terbaru adalah %2. harap perbarui untuk menggunakan Luna lebih baik!
+Goat.autoRestart1=Luna akan dimulai ulang secara otomatis dalam %1
+Goat.autoRestart2=Luna akan dimulai ulang secara otomatis dengan tugas cron: %1
 Goat.googleApiTokenExpired=Token penyegaran google api telah kadaluwarsa atau dicabut, silakan dapatkan token baru!
 
 # bot/login/login.js
-login.currentlyLogged=Masuk Itsuki sedang berlangsung
+login.currentlyLogged=Masuk Luna sedang berlangsung
 login.notFoundDirAccount=Tidak dapat menemukan berkas %1
 login.loginToken=Masuk dengan token akses
 login.loginCookieString=Masuk dengan string cookie
@@ -27,28 +27,28 @@ login.inputCookieString=> Silahkan masukkan string cookie kamu:
 login.inputCookieArray=> Silahkan masukkan susunan cookie kamu:
 login.refreshCookie=Menyegarkan cookie...
 login.refreshCookieError=Terjadi kesalahan saat menyegarkan cookie!
-login.refreshCookieSuccess=Cookie berhasil di-refresh, restart Itsuki untuk menggunakan cookie baru!
+login.refreshCookieSuccess=Cookie berhasil di-refresh, restart Luna untuk menggunakan cookie baru!
 login.refreshCookieWarning=Kamu telah mengaktifkan mode auto refresh cookie, namun kamu belum mengkonfigurasi email dan kata sandi ke file config!
 login.tokenError=Token tidak valid atau kadaluwarsa, silakan masukkan token izin lengkap berupa %1 ke dalam file %2
 login.cookieError=Cookie tidak valid atau kadaluwarsa!
 login.loginPasswordError=Terjadi kesalahan saat masuk dengan email & kata sandi di config!
 login.loginSuccess=Berhasil masuk!
 login.loginError=Terjadi kesalahan saat masuk!
-login.openDashboardSuccess=Halaman pengelolaan Itsuki berhasil dibuka!
-login.openDashboardError=Terjadi kesalahan saat membuka halaman manejemen Itsuki!
-login.changeGbanData=Data telah dirubah, saat ini tidak mungkin menjalankan Itsuki!
+login.openDashboardSuccess=Halaman pengelolaan Luna berhasil dibuka!
+login.openDashboardError=Terjadi kesalahan saat membuka halaman manejemen Luna!
+login.changeGbanData=Data telah dirubah, saat ini tidak mungkin menjalankan Luna!
 login.errorNoti=Terjadi kesalahan saat mengambil pesan
 login.refreshFbstateSuccess=Berkas %1 telah disegarkan!
 login.refreshFbstateError=Terjadi kesalahan saat menyegarkan berkas %1
-login.youAreBanned=Anda telah dilarang dari proyek Itsuki!
-login.runBot=Peluncuran Itsuki berhasil, mulai menerima pesan dari pengguna
+login.youAreBanned=Anda telah dilarang dari proyek Luna!
+login.runBot=Peluncuran Luna berhasil, mulai menerima pesan dari pengguna
 login.notLoggedIn=Terjadi kesalahan, silahkan periksa kembali akun facebook kamu
 login.callBackError=Terjadi kesalahan saat panggilan balik mendengarkanMqtt
-login.userBanned=Kamu telah dilarang menggunakan Itsuki!
+login.userBanned=Kamu telah dilarang menggunakan Luna!
 login.checkGbanError=Terjadi kesalahan saat memeriksa gban, coba perbarui sumber ke versi terbaru (buka cmd ketik: node update)
-login.gbanMessage=Anda telah dilarang dari proyek Itsuki pada %1 karena alasan: %2\n» Waktu: %3
-login.gbanMessageToDate=Kamu telah dilarang dari proyek Itsuki pada %1 karena alasan: %2\n» Waktu: %3\n» Sampai saat ini: %4
-login.gbanAdminMessage=Pengguna %1 telah dilarang dari proyek Itsuki di %2 karena alasan: %3
+login.gbanMessage=Anda telah dilarang dari proyek Luna pada %1 karena alasan: %2\n» Waktu: %3
+login.gbanMessageToDate=Kamu telah dilarang dari proyek Luna pada %1 karena alasan: %2\n» Waktu: %3\n» Sampai saat ini: %4
+login.gbanAdminMessage=Pengguna %1 telah dilarang dari proyek Luna di %2 karena alasan: %3
 login.openServerUptimeSuccess=Server uptime yang dibuka: %1
 login.openServerUptimeError=Terjadi kesalahan, tidak dapat membuka server uptime
 login.restartListenMessage=ListenMQTT memulai ulang diaktifkan setiap %1
@@ -59,9 +59,9 @@ login.refreshCookieAfter=Menyegarkan cookie setelah %1
 login.listenMqttClose=ListenMQTT ditutup!
 login.listenMqttCloseByUser=ListenMQTT ditutup oleh pengguna!
 login.retryCheckLiveCookie=Mencoba lagi memeriksa cookie... %1
-login.startBotSuccess=Itsuki telah berhasil dimulai, mulai menerima pesan dari pengguna!
+login.startBotSuccess=Luna telah berhasil dimulai, mulai menerima pesan dari pengguna!
 
-version.tooOldVersion=Kamu menggunakan versi Itsuki yang terlalu lama, harap perbarui ke versi terbaru dengan mengetikkan perintah: %1 di terminal atau shell
+version.tooOldVersion=Kamu menggunakan versi Luna yang terlalu lama, harap perbarui ke versi terbaru dengan mengetikkan perintah: %1 di terminal atau shell
 
 # bot/custom.js
 custom.refreshedFb_dtsg=Fb_dtsg dan jazoest berhasil disegarkan
@@ -89,27 +89,27 @@ handlerCheckData.cantCreateThread=Grup dengan id %1 tidak dapat ditulis ke datab
 handlerCheckData.cantCreateUser=Pengguna dengan id %1 tidak dapat ditulis ke database!
 
 # bot/handler/handlerEvents.js
-handlerEvents.userBanned=𝖪𝖺𝗆𝗎 𝖽𝗂𝗅𝖺𝗋𝖺𝗇𝗀 𝗆𝖾𝗇𝗀𝗀𝗎𝗇𝖺𝗄𝖺𝗇 𝖨𝗍𝗌𝗎𝗄𝗂\n- 𝖠𝗅𝖺𝗌𝖺𝗇: %1\n- 𝖶𝖺𝗄𝗍𝗎: %2\n- 𝖴𝗌𝖾𝗋 𝖨𝖣: %3
-handlerEvents.threadBanned=𝖦𝗋𝗎𝗉 𝗂𝗇𝗂 𝗍𝖾𝗅𝖺𝗁 𝖽𝗂𝗅𝖺𝗋𝖺𝗇𝗀 𝗆𝖾𝗇𝗀𝗀𝗎𝗇𝖺𝗄𝖺𝗇 𝖨𝗍𝗌𝗎𝗄𝗂\n- 𝖠𝗅𝖺𝗌𝖺𝗇: %1\n- 𝖶𝖺𝗄𝗍𝗎: %2\n- 𝖦𝗋𝗎𝗉 𝖨𝖣: %3
-handlerEvents.onlyAdminBox=𝖲𝖺𝖺𝗍 𝗂𝗇𝗂 𝗁𝖺𝗇𝗒𝖺 𝖺𝖽𝗆𝗂𝗇 𝗀𝗋𝗎𝗉 𝗒𝖺𝗇𝗀 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗇𝗀𝗀𝗎𝗇𝖺𝗄𝖺𝗇 𝖨𝗍𝗌𝗎𝗄𝗂!
-handlerEvents.onlyAdminBot=𝖲𝖺𝖺𝗍 𝗂𝗇𝗂 𝗁𝖺𝗇𝗒𝖺 𝗁𝖺𝖽𝗂 𝗒𝖺𝗇𝗀 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗇𝗀𝗀𝗎𝗇𝖺𝗄𝖺𝗇 𝖨𝗍𝗌𝗎𝗄𝗂!
+handlerEvents.userBanned=𝖪𝖺𝗆𝗎 𝖽𝗂𝗅𝖺𝗋𝖺𝗇𝗀 𝗆𝖾𝗇𝗀𝗀𝗎𝗇𝖺𝗄𝖺𝗇 Luna\n- 𝖠𝗅𝖺𝗌𝖺𝗇: %1\n- 𝖶𝖺𝗄𝗍𝗎: %2\n- 𝖴𝗌𝖾𝗋 𝖨𝖣: %3
+handlerEvents.threadBanned=𝖦𝗋𝗎𝗉 𝗂𝗇𝗂 𝗍𝖾𝗅𝖺𝗁 𝖽𝗂𝗅𝖺𝗋𝖺𝗇𝗀 𝗆𝖾𝗇𝗀𝗀𝗎𝗇𝖺𝗄𝖺𝗇 Luna\n- 𝖠𝗅𝖺𝗌𝖺𝗇: %1\n- 𝖶𝖺𝗄𝗍𝗎: %2\n- 𝖦𝗋𝗎𝗉 𝖨𝖣: %3
+handlerEvents.onlyAdminBox=𝖲𝖺𝖺𝗍 𝗂𝗇𝗂 𝗁𝖺𝗇𝗒𝖺 𝖺𝖽𝗆𝗂𝗇 𝗀𝗋𝗎𝗉 𝗒𝖺𝗇𝗀 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗇𝗀𝗀𝗎𝗇𝖺𝗄𝖺𝗇 Luna!
+handlerEvents.onlyAdminBot=𝖲𝖺𝖺𝗍 𝗂𝗇𝗂 𝗁𝖺𝗇𝗒𝖺 𝗁𝖺𝖽𝗂 𝗒𝖺𝗇𝗀 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗇𝗀𝗀𝗎𝗇𝖺𝗄𝖺𝗇 Luna!
 handlerEvents.commandNotFound=𝖯𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %1 𝗍𝗂𝖽𝖺𝗄 𝖺𝖽𝖺 𝗍𝗎𝖺𝗇, 𝗄𝖾𝗍𝗂𝗄 %2𝗆𝖾𝗇𝗎 𝗎𝗇𝗍𝗎𝗄 𝗆𝖾𝗅𝗂𝗁𝖺𝗍 𝖽𝖺𝖿𝗍𝖺𝗋 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁!
 handlerEvents.commandNotFound2=𝖯𝖾𝗋𝗂𝗇𝗍𝖺𝗁 𝗒𝖺𝗇𝗀 𝗍𝗎𝖺𝗇 𝗀𝗎𝗇𝖺𝗄𝖺𝗇 𝗍𝗂𝖽𝖺𝗄 𝖺𝖽𝖺, 𝗄𝖾𝗍𝗂𝗄 %1𝗆𝖾𝗇𝗎 𝗎𝗇𝗍𝗎𝗄 𝗆𝖾𝗅𝗂𝗁𝖺𝗍 𝖽𝖺𝖿𝗍𝖺𝗋 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁!
 handlerEvents.commandSyntaxError=𝖯𝖾𝗋𝗂𝗇𝗍𝖺𝗁 𝗒𝖺𝗇𝗀 𝗍𝗎𝖺𝗇 𝗀𝗎𝗇𝖺𝗄𝖺𝗇 𝗌𝖺𝗅𝖺𝗁, 𝗌𝗂𝗅𝖺𝗁𝗄𝖺𝗇 𝗄𝖾𝗍𝗂𝗄 %1𝗆𝖾𝗇𝗎 %2 𝗎𝗇𝗍𝗎𝗄 𝗆𝖾𝗅𝗂𝗁𝖺𝗍 𝖼𝖺𝗋𝖺 𝗆𝖾𝗇𝗀𝗀𝗎𝗇𝖺𝗄𝖺𝗇 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁!
 handlerEvents.onlyAdmin=𝖧𝖺𝗇𝗒𝖺 𝖺𝖽𝗆𝗂𝗇 𝗀𝗋𝗎𝗉 𝗒𝖺𝗇𝗀 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗇𝗀𝗎𝗇𝖺𝗄𝖺𝗇 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %1
 handlerEvents.onlyAdminToUseOnReply=𝖧𝖺𝗇𝗒𝖺 𝖺𝖽𝗆𝗂𝗇 𝗀𝗋𝗎𝗉 𝗒𝖺𝗇𝗀 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗇𝗀𝗀𝗎𝗇𝖺𝗄𝖺𝗇 𝖿𝗎𝗇𝗀𝗌𝗂 𝖻𝖺𝗅𝖺𝗌𝖺𝗇 𝖽𝖺𝗋𝗂 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %1
 handlerEvents.onlyAdminToUseOnReaction=𝖧𝖺𝗇𝗒𝖺 𝖺𝖽𝗆𝗂𝗇 𝗀𝗋𝗎𝗉 𝗒𝖺𝗇𝗀 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗇𝗀𝗀𝗎𝗇𝖺𝗄𝖺𝗇 𝖿𝗎𝗇𝗀𝗌𝗂 𝗋𝖾𝖺𝗄𝗌𝗂 𝖽𝖺𝗋𝗂 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %1
-handlerEvents.onlyAdminBot2=𝖧𝖺𝗇𝗒𝖺 𝖺𝖽𝗆𝗂𝗇 𝗂𝗍𝗌𝗎𝗄𝗂 𝗒𝖺𝗇𝗀 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗇𝗀𝗀𝗎𝗇𝖺𝗄𝖺𝗇 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %1
-handlerEvents.onlyAdminBot2ToUseOnReply=𝖧𝖺𝗇𝗒𝖺 𝖺𝖽𝗆𝗂𝗇 𝗂𝗍𝗌𝗎𝗄𝗂 𝗒𝖺𝗇𝗀 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗇𝗀𝗀𝗎𝗇𝖺𝗄𝖺𝗇 𝖿𝗎𝗇𝗀𝗌𝗂 𝖻𝖺𝗅𝖺𝗌𝖺𝗇 𝖽𝖺𝗋𝗂 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %1
-handlerEvents.onlyAdminBot2ToUseOnReaction=𝖧𝖺𝗇𝗒𝖺 𝖺𝖽𝗆𝗂𝗇 𝗂𝗍𝗌𝗎𝗄𝗂 𝗒𝖺𝗇𝗀 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗇𝗀𝗀𝗎𝗇𝖺𝗄𝖺𝗇 𝖿𝗎𝗇𝗀𝗌𝗂 𝗋𝖾𝖺𝗄𝗌𝗂 𝖽𝖺𝗋𝗂 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %1
+handlerEvents.onlyAdminBot2=𝖧𝖺𝗇𝗒𝖺 𝖺𝖽𝗆𝗂𝗇 luna 𝗒𝖺𝗇𝗀 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗇𝗀𝗀𝗎𝗇𝖺𝗄𝖺𝗇 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %1
+handlerEvents.onlyAdminBot2ToUseOnReply=𝖧𝖺𝗇𝗒𝖺 𝖺𝖽𝗆𝗂𝗇 luna 𝗒𝖺𝗇𝗀 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗇𝗀𝗀𝗎𝗇𝖺𝗄𝖺𝗇 𝖿𝗎𝗇𝗀𝗌𝗂 𝖻𝖺𝗅𝖺𝗌𝖺𝗇 𝖽𝖺𝗋𝗂 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %1
+handlerEvents.onlyAdminBot2ToUseOnReaction=𝖧𝖺𝗇𝗒𝖺 𝖺𝖽𝗆𝗂𝗇 luna 𝗒𝖺𝗇𝗀 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗇𝗀𝗀𝗎𝗇𝖺𝗄𝖺𝗇 𝖿𝗎𝗇𝗀𝗌𝗂 𝗋𝖾𝖺𝗄𝗌𝗂 𝖽𝖺𝗋𝗂 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %1
 handlerEvents.waitingForCommand=𝖲𝖺𝖻𝖺𝗋 𝗆𝖺𝗌𝗂 𝖼𝗈𝗈𝗅𝖽𝗈𝗐𝗇 %1 𝖽𝖾𝗍𝗂𝗄!
-handlerEvents.errorOccurred=𝖤𝗋𝗋𝗈𝗋:\n𝖳𝖾𝗋𝗃𝖺𝖽𝗂 𝗄𝖾𝗌𝖺𝗅𝖺𝗁𝖺𝗇 𝗉𝖺𝖽𝖺 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %2\n\n%3\n𝖪𝖺𝗆𝗎 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗅𝖺𝗉𝗈𝗋𝗄𝖺𝗇 𝗂𝗇𝗂 𝗉𝖺𝖽𝖺 𝖺𝖽𝗆𝗂𝗇 𝗂𝗍𝗌𝗎𝗄𝗂!
-handlerEvents.errorOccurred2=𝖤𝗋𝗋𝗈𝗋:\n𝖳𝖾𝗋𝗃𝖺𝖽𝗂 𝗄𝖾𝗌𝖺𝗅𝖺𝗁𝖺𝗇 𝗈𝗇𝖼𝗁𝖺𝗍 𝗉𝖺𝖽𝖺 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %2\n\n%3\n𝖪𝖺𝗆𝗎 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗅𝖺𝗉𝗈𝗋𝗄𝖺𝗇 𝗂𝗇𝗂 𝗉𝖺𝖽𝖺 𝖺𝖽𝗆𝗂𝗇 𝗂𝗍𝗌𝗎𝗄𝗂!
-handlerEvents.errorOccurred3=𝖤𝗋𝗋𝗈𝗋:\n𝖳𝖾𝗋𝗃𝖺𝖽𝗂 𝗄𝖾𝗌𝖺𝗅𝖺𝗁𝖺𝗇 𝗈𝗇𝗋𝖾𝗉𝗅𝗒 𝗉𝖺𝖽𝖺 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %2\n\n%3\n𝖪𝖺𝗆𝗎 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗅𝖺𝗉𝗈𝗋𝗄𝖺𝗇 𝗂𝗇𝗂 𝗉𝖺𝖽𝖺 𝖺𝖽𝗆𝗂𝗇 𝗂𝗍𝗌𝗎𝗄𝗂!
-handlerEvents.errorOccurred4=𝖤𝗋𝗋𝗈𝗋:\n𝖳𝖾𝗋𝗃𝖺𝖽𝗂 𝗄𝖾𝗌𝖺𝗅𝖺𝗁𝖺𝗇 𝗈𝗇𝗋𝖾𝖺𝖼𝗍𝗂𝗈𝗇 𝗉𝖺𝖽𝖺 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %2\n\n%3\n𝖪𝖺𝗆𝗎 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗅𝖺𝗉𝗈𝗋𝗄𝖺𝗇 𝗂𝗇𝗂 𝗉𝖺𝖽𝖺 𝖺𝖽𝗆𝗂𝗇 𝗂𝗍𝗌𝗎𝗄𝗂!
-handlerEvents.errorOccurred5=𝖤𝗋𝗋𝗈𝗋:\n𝖳𝖾𝗋𝗃𝖺𝖽𝗂 𝗄𝖾𝗌𝖺𝗅𝖺𝗁𝖺𝗇 𝗈𝗇𝖾𝗏𝖾𝗇𝗍 𝗉𝖺𝖽𝖺 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %2\n\n%3\n𝖪𝖺𝗆𝗎 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗅𝖺𝗉𝗈𝗋𝗄𝖺𝗇 𝗂𝗇𝗂 𝗉𝖺𝖽𝖺 𝖺𝖽𝗆𝗂𝗇 𝗂𝗍𝗌𝗎𝗄𝗂!
-handlerEvents.errorOccurred6=Error:\n𝖳𝖾𝗋𝗃𝖺𝖽𝗂 𝗄𝖾𝗌𝖺𝗅𝖺𝗁𝖺𝗇 𝗌𝖺𝖺𝗍 𝗆𝖾𝗇𝗃𝖺𝗅𝖺𝗇𝗄𝖺𝗇 𝗈𝗇𝖾𝗏𝖾𝗇𝗍 𝖽𝖾𝗇𝗀𝖺𝗇 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %2\n\n%3\n𝖪𝖺𝗆𝗎 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗅𝖺𝗉𝗈𝗋𝗄𝖺𝗇 𝗂𝗇𝗂 𝗉𝖺𝖽𝖺 𝖺𝖽𝗆𝗂𝗇 𝗂𝗍𝗌𝗎𝗄𝗂!
-handlerEvents.errorOccurred7=𝖤𝗋𝗋𝗈𝗋:\n𝖳𝖾𝗋𝗃𝖺𝖽𝗂 𝗄𝖾𝗌𝖺𝗅𝖺𝗁𝖺𝗇 𝗌𝖺𝖺𝗍 𝗆𝖾𝗇𝗃𝖺𝗅𝖺𝗇𝗄𝖺𝗇 𝗈𝗇𝖺𝗇𝗒𝖾𝗏𝖾𝗇𝗍 𝖽𝖾𝗇𝗀𝖺𝗇 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %2\n\n%3\n𝖪𝖺𝗆𝗎 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗅𝖺𝗉𝗈𝗋𝗄𝖺𝗇 𝗂𝗇𝗂 𝗉𝖺𝖽𝖺 𝖺𝖽𝗆𝗂𝗇 𝗂𝗍𝗌𝗎𝗄𝗂!
+handlerEvents.errorOccurred=𝖤𝗋𝗋𝗈𝗋:\n𝖳𝖾𝗋𝗃𝖺𝖽𝗂 𝗄𝖾𝗌𝖺𝗅𝖺𝗁𝖺𝗇 𝗉𝖺𝖽𝖺 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %2\n\n%3\n𝖪𝖺𝗆𝗎 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗅𝖺𝗉𝗈𝗋𝗄𝖺𝗇 𝗂𝗇𝗂 𝗉𝖺𝖽𝖺 𝖺𝖽𝗆𝗂𝗇 luna!
+handlerEvents.errorOccurred2=𝖤𝗋𝗋𝗈𝗋:\n𝖳𝖾𝗋𝗃𝖺𝖽𝗂 𝗄𝖾𝗌𝖺𝗅𝖺𝗁𝖺𝗇 𝗈𝗇𝖼𝗁𝖺𝗍 𝗉𝖺𝖽𝖺 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %2\n\n%3\n𝖪𝖺𝗆𝗎 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗅𝖺𝗉𝗈𝗋𝗄𝖺𝗇 𝗂𝗇𝗂 𝗉𝖺𝖽𝖺 𝖺𝖽𝗆𝗂𝗇 luna!
+handlerEvents.errorOccurred3=𝖤𝗋𝗋𝗈𝗋:\n𝖳𝖾𝗋𝗃𝖺𝖽𝗂 𝗄𝖾𝗌𝖺𝗅𝖺𝗁𝖺𝗇 𝗈𝗇𝗋𝖾𝗉𝗅𝗒 𝗉𝖺𝖽𝖺 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %2\n\n%3\n𝖪𝖺𝗆𝗎 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗅𝖺𝗉𝗈𝗋𝗄𝖺𝗇 𝗂𝗇𝗂 𝗉𝖺𝖽𝖺 𝖺𝖽𝗆𝗂𝗇 luna!
+handlerEvents.errorOccurred4=𝖤𝗋𝗋𝗈𝗋:\n𝖳𝖾𝗋𝗃𝖺𝖽𝗂 𝗄𝖾𝗌𝖺𝗅𝖺𝗁𝖺𝗇 𝗈𝗇𝗋𝖾𝖺𝖼𝗍𝗂𝗈𝗇 𝗉𝖺𝖽𝖺 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %2\n\n%3\n𝖪𝖺𝗆𝗎 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗅𝖺𝗉𝗈𝗋𝗄𝖺𝗇 𝗂𝗇𝗂 𝗉𝖺𝖽𝖺 𝖺𝖽𝗆𝗂𝗇 luna!
+handlerEvents.errorOccurred5=𝖤𝗋𝗋𝗈𝗋:\n𝖳𝖾𝗋𝗃𝖺𝖽𝗂 𝗄𝖾𝗌𝖺𝗅𝖺𝗁𝖺𝗇 𝗈𝗇𝖾𝗏𝖾𝗇𝗍 𝗉𝖺𝖽𝖺 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %2\n\n%3\n𝖪𝖺𝗆𝗎 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗅𝖺𝗉𝗈𝗋𝗄𝖺𝗇 𝗂𝗇𝗂 𝗉𝖺𝖽𝖺 𝖺𝖽𝗆𝗂𝗇 luna!
+handlerEvents.errorOccurred6=Error:\n𝖳𝖾𝗋𝗃𝖺𝖽𝗂 𝗄𝖾𝗌𝖺𝗅𝖺𝗁𝖺𝗇 𝗌𝖺𝖺𝗍 𝗆𝖾𝗇𝗃𝖺𝗅𝖺𝗇𝗄𝖺𝗇 𝗈𝗇𝖾𝗏𝖾𝗇𝗍 𝖽𝖾𝗇𝗀𝖺𝗇 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %2\n\n%3\n𝖪𝖺𝗆𝗎 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗅𝖺𝗉𝗈𝗋𝗄𝖺𝗇 𝗂𝗇𝗂 𝗉𝖺𝖽𝖺 𝖺𝖽𝗆𝗂𝗇 luna!
+handlerEvents.errorOccurred7=𝖤𝗋𝗋𝗈𝗋:\n𝖳𝖾𝗋𝗃𝖺𝖽𝗂 𝗄𝖾𝗌𝖺𝗅𝖺𝗁𝖺𝗇 𝗌𝖺𝖺𝗍 𝗆𝖾𝗇𝗃𝖺𝗅𝖺𝗇𝗄𝖺𝗇 𝗈𝗇𝖺𝗇𝗒𝖾𝗏𝖾𝗇𝗍 𝖽𝖾𝗇𝗀𝖺𝗇 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %2\n\n%3\n𝖪𝖺𝗆𝗎 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗅𝖺𝗉𝗈𝗋𝗄𝖺𝗇 𝗂𝗇𝗂 𝗉𝖺𝖽𝖺 𝖺𝖽𝗆𝗂𝗇 luna!
 handlerEvents.cannotFindCommandName=𝖳𝗂𝖽𝖺𝗄 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗇𝖾𝗇𝗍𝗎𝗄𝖺𝗇 𝗇𝖺𝗆𝖺 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 𝗎𝗇𝗍𝗎𝗄 𝖻𝖺𝗅𝖺𝗌𝖺𝗇 𝗂𝗇𝗂!
 handlerEvents.cannotFindCommand=𝖳𝗂𝖽𝖺𝗄 𝖽𝖺𝗉𝖺𝗍 𝗆𝖾𝗇𝖾𝗆𝗎𝗄𝖺𝗇 𝗉𝖾𝗋𝗂𝗇𝗍𝖺𝗁 %1 𝗎𝗇𝗍𝗎𝗄 𝗆𝖾𝗇𝗃𝖺𝗅𝖺𝗇𝗄𝖺𝗇 𝖻𝖺𝗅𝖺𝗌𝖺𝗇 𝗂𝗇𝗂!
 
@@ -131,10 +131,10 @@ updater.cantFindVersion=Kamu menggunakan versi yang belum ditentukan (%1), harap
 updater.newVersions=Ada %1 versi terbaru yang perlu diperbarui, mulai diperbarui...
 updater.updateSuccess=Perbarui berhasil%1
 updater.configChanged=%1 telah diubah, silahkan periksa kembali file config.json-mu!
-updater.installingPackages=Menginstal dependensi untuk Itsuki...
-updater.installSuccess=Dependensi berhasil diinstal, mulai ulang Itsuki untuk menggunakan versi baru!
+updater.installingPackages=Menginstal dependensi untuk Luna...
+updater.installSuccess=Dependensi berhasil diinstal, mulai ulang Luna untuk menggunakan versi baru!
 updater.backupSuccess=Berhasil mencadangkan berkas yang diubah, lihat di folder %1
-updater.restartToApply=Mulai ulang Itsuki untuk menerapkan versi baru!
+updater.restartToApply=Mulai ulang Luna untuk menerapkan versi baru!
 updater.skipFile=Ada versi baru dari berkas %1, tetapi kamu telah melewatkan berkas ini selama proses pembaruan dengan komentar %2 di berkas ini!
 
 # dashboard/routes/verifyfbid.js
@@ -144,7 +144,7 @@ verifyfbid.sendCode=Kode verifikasi kamu adalah:\n%1\nKode verifikasi berlaku se
 utils.errorOccurred=Error\n\n%1
 
 # for command
-command.restartedBot=Itsuki nakano telah dimulai ulang!
+command.restartedBot=Luna telah dimulai ulang!
 
 # dashboard/app.js
 app.googleApiRefreshTokenExpired=Token penyegaran API Google telah kedaluwarsa atau dicabut, silakan dapatkan token baru!
